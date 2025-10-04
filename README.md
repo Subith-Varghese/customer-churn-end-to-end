@@ -105,6 +105,7 @@ top_features.pkl # Final selected features
 ## 🧠 Stage 4 – Prediction & Business Insights (Power BI)
 
 **Goal:** Predict churn for newly joined customers (`vw_JoinData`) and visualize at-risk customers.
+![Churn_Prediction](https://github.com/Subith-Varghese/customer-churn-end-to-end/blob/67c2c70ab1313e7d02565f1be4a3f3593e528498/powerbi/Screenshot_Churn_Predictions.png)
 
 ### Pipeline
 1. Applied same transformations on `JoinData`
