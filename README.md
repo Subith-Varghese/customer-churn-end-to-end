@@ -29,7 +29,7 @@ The objective is to identify customers who are likely to leave (“churn”) and
 ## 📈 Stage 2 – Exploratory Analysis (Power BI)
 
 **Goal:** Understand customer churn patterns and key drivers.
-![Churn_Analysis](https://github.com/Subith-Varghese/customer-churn-end-to-end/blob/459944c07b2a0235565374a5a7b060c830b117d6/powerbi/Screenshot_Churn_Analysis.png)
+![Churn_Analysis](https://github.com/Subith-Varghese/customer-churn-end-to-end/blob/ef2cb21f6a8981daad5c7801951d15856af07de0/powerbi/Screenshot_Churn_Analysis.png)
 ### Key Dashboards
 1. **Churn Overview**
    - Total Customers, Churn Rate, Gender Distribution
@@ -98,7 +98,6 @@ scaler.pkl # StandardScaler
 rf_model.pkl # RandomForest Model
 best_threshold.pkl # Optimal Threshold
 top_features.pkl # Final selected features
-
 
 ---
 
