@@ -8,20 +8,6 @@ The objective is to identify customers who are likely to leave (“churn”) and
 
 ---
 
-## Project Architecture
-SQL (Data Extraction & Cleaning)
-↓
-Power BI (Exploratory Analysis)
-↓
-Python Notebook (ML Model Building)
-↓
-SQL (Predictions Table)
-↓
-Power BI (Prediction Insights)
-
-
----
-
 ## 🗂️ Stage 1 – Data Engineering (SQL)
 
 **Goal:** Build clean, analysis-ready datasets.
@@ -38,18 +24,12 @@ Power BI (Prediction Insights)
 3. **Views Creation**
    - `vw_ChurnData` → Customers with status *Churned* or *Stayed*  
    - `vw_JoinData` → Newly joined customers for future predictions
-
-### Output
-- ✅ `prod_Churn` – Cleaned master dataset  
-- ✅ `vw_ChurnData` – Historical data for analysis  
-- ✅ `vw_JoinData` – Data for prediction
-
 ---
 
 ## 📈 Stage 2 – Exploratory Analysis (Power BI)
 
 **Goal:** Understand customer churn patterns and key drivers.
-[Churn_Analysis](https://github.com/Subith-Varghese/customer-churn-end-to-end/blob/459944c07b2a0235565374a5a7b060c830b117d6/powerbi/Screenshot_Churn_Analysis.png)
+![Churn_Analysis](https://github.com/Subith-Varghese/customer-churn-end-to-end/blob/459944c07b2a0235565374a5a7b060c830b117d6/powerbi/Screenshot_Churn_Analysis.png)
 ### Key Dashboards
 1. **Churn Overview**
    - Total Customers, Churn Rate, Gender Distribution
